@@ -1,0 +1,83 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box1{ 
+    width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2vmax;
+  
+}
+.box1img{
+    width: 27%; 
+    height: 30vmax;
+    margin-top: 2vmax;
+    margin-left: 2vmax;
+}
+.box1img img{
+    width: 100%;
+    height: 60%;
+    transition: 1s;
+    z-index: -1;  
+}
+.box1info{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box1info h2{
+    width: 100%;
+    text-align: center;
+    float: right;
+    font-size: 1.2vmax;
+}
+.box1infoname{
+    text-align: center;
+    transition: 1s; 
+}
+.box1infoname h1{
+    font-size: 1.7vmax;
+}
+.box1infoname h6{
+    font-size: 1.2vmax;
+}
+.box1info button{
+    background-color: black;
+    color: white;
+    font-size: 1vmax;
+    padding: 1vmax;
+    border-radius: 2vmax;
+    transition: 1s;
+}
+
+
+@media (max-width:600px) {
+    .box1img{
+        width: 80%; 
+        height: 50vmax;
+    }
+    .box1img img{
+        height: 70%;
+    }
+    .box1info h2{
+        font-size: 1.7vmax;
+    }
+    .box1infoname h1{
+        font-size: 2vmax;
+    }
+    .box1infoname h6{
+        font-size: 1.6vmax;
+    }
+    .box1info button{
+        font-size: 1.5vmax;
+        letter-spacing: 0.5vmax;
+    }
+}
+
+
+

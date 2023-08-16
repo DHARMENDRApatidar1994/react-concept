@@ -1,0 +1,58 @@
+.main{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    margin-bottom: 2vmax;
+    padding: 2vmax;
+    font-family: 'Poppins';
+}
+
+.slider{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden; 
+    margin-top: 2vmax;
+}
+.slide-track{
+    display: flex;
+    animation: scroll 30s linear infinite; 
+}
+.slide-track:hover{
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    0% {
+         transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+.slide{
+    width: 400px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide h4{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.slide .box{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.slide img{
+    width: 100%;
+    height: 300px;
+    transition: 1s;
+}
+.slide img:hover{
+    transform: scale(1.2);
+}
