@@ -1,0 +1,133 @@
+.PiramalSlider {
+    width: 100%;
+    height: auto;
+    padding-top: 5vmax;
+}
+
+.PiramalSlider .Slider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.PiramalSlider .Slider  .slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+.slidescroll{
+width: 100%;
+
+
+}
+.PiramalSlider .Slider  .slide {
+    width: 100%;
+    height: 40vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.PiramalSlider .Slider  .slide-content {
+   
+      
+    flex: 1;
+    padding: 1vmax;
+    text-align: left;
+    margin-left: 5vmax;
+}
+
+.PiramalSlider .Slider  .slide-content h2 {
+    font-size: 3vmax;
+    margin-bottom: 1vmax;
+    font-weight: 700;
+}
+
+.PiramalSlider .Slider  .slide-content p {
+    font-size: 1.3vmax;
+    margin-bottom: 1vmax;
+}
+
+.PiramalSlider .Slider  .slide-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0.5vmax;
+    font-weight: 700;
+}
+
+.PiramalSlider .Slider  .slide-image {
+    width: 30%;
+    height: 30vmax;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+    margin-right: 5vmax;
+}
+
+.PiramalSlider .Slider  .slide-image img {
+    width: 100%;
+    height: 25vmax;
+}
+
+.PiramalSlider .Slider  .slick-dots {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.PiramalSlider .Slider  .slick-dots li button:before {
+    content: '•';
+    font-size: 1vmax;
+    color: #717171;
+}
+
+.PiramalSlider .Slider  .slick-dots li.slick-active button:before {
+    color: #000000;
+}
+
+@media (max-width:600px) {
+.PiramalSlider .Slider  .slide {
+
+height: 72vmax;
+
+flex-direction: column-reverse;
+
+}
+
+.PiramalSlider .Slider  .slide-content {
+margin-left: 2vmax;
+}
+
+.PiramalSlider .Slider  .slide-content h2 {
+font-size: 3vmax;
+margin-bottom: 2vmax;
+}
+
+.PiramalSlider .Slider  .slide-content p {
+font-size: 1.9vmax;
+/* margin-bottom: 1vmax; */
+}
+
+.PiramalSlider .Slider  .slide-content button {
+padding: 5px 20px;
+margin-top: 1vmax;
+}
+
+.PiramalSlider .Slider  .slide-image {
+width: 70%;
+height: 40vmax;
+margin-right: 0vmax;
+}
+
+.PiramalSlider .Slider  .slide-image img {
+width: 80%;
+}
+
+
+}

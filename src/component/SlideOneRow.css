@@ -1,0 +1,9 @@
+.oneline{
+    display: flex;
+    overflow-x: auto;
+ 
+
+}
+.oneline::-webkit-scrollbar{
+    display: none;
+}
