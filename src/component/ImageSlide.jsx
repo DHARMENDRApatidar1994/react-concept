@@ -1,6 +1,6 @@
 import React from 'react'
 import { music } from './ImageSlideData'
-import './Imageslide.css'
+import './ImageSlide.css'
 import { Link } from 'react-router-dom'
 
 
