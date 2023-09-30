@@ -11,6 +11,12 @@ import SideDashboard from './component/SideDashboard'
 import Slideleft from './component/Slideleft'
 import Slideminicontent from './component/Slideminicontent'
 import SlideOneRow from './component/SlideOneRow'
+import ToDoList from './component/ToDoList'
+import FilterOnSearch from './component/FilterOnSearch'
+import RazorpayPayment from './component/RazorpayPayment'
+import ShowItem from './component/ShowItem'
+import Cart from './component/Cart'
+import FetchApi from './component/FetchApi'
 
 
 const App = () => {
@@ -28,6 +34,11 @@ const App = () => {
         <Route path='/slideleft' element={<Slideleft/>}/>
         <Route path='/slideimage' element={<Slideminicontent/>}/>
         <Route path='/slideonerow' element={<SlideOneRow/>}/>
+        <Route path='/todolist' element={<ToDoList/>}/>
+        <Route path='/razorpay' element={<RazorpayPayment/>}/>
+        <Route path='/addcart' element={<ShowItem/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/fetchapi' element={<FetchApi/>}/>
 
       </Routes>
     </div>

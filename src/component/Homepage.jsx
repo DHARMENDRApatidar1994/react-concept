@@ -13,6 +13,11 @@ const Homepage = () => {
         <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/slideleft'>Slide image right to left infinite</Link></button>
         <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/slideimage'>Slide miniimage onclick</Link></button>
         <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/slideonerow'>Slide one row image</Link></button>
+        <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/todolist'>ToDo List</Link></button>
+        <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/filterOnSearch'>Filter On Search</Link></button>
+        <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/razorpay'>Razorpay Payment</Link></button>
+        <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/addcart'>Add Cart Process</Link></button>
+        <button className='btn btn-primary w-25 ms-2 mt-3 fs-4 '><Link className='text-light' to='/fetchapi'>Fetch Api Code</Link></button>
     </div>
   )
 }
